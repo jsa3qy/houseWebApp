@@ -4,21 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="Home">
+      <h1 class="Home-title"> 
+        1406 Hopkins House Page
+      </h1>
+      <span class="Home-subtitle">
+        All updates regarding Hopkins House residents will be hosted here.
+      </span>
     </div>
   );
 }
